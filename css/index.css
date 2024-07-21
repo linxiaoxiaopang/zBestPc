@@ -44,11 +44,11 @@ img{
 /*news*/
 .news,.people{
 	margin-top: 50px;
-} 
+}
 .news h2 img,.people h2 img{
 	width: 70%;
 	display: block;
-	margin:0 auto 30px; 
+	margin:0 auto 30px;
 }
 .news div.top a,.news div.bott a{
 	display: block;
@@ -190,9 +190,9 @@ a.ad{
 	margin-right: auto;
 	margin-left: auto;
 	min-width: 1160px;
-}  
+}
 .block_home_slider .slide {position:relative;}
-.block_home_slider .caption {padding:13px 16px 12px; position:absolute; left:0px; right:0px; bottom:0px; background:url(bg_caption.png); text-align:left;}
+.block_home_slider .caption {padding:13px 16px 12px; position:absolute; left:0px; right:0px; bottom:0px;  text-align:left;}
 .block_home_slider .caption p {padding-bottom:0px; font-size:11px; color:#dedede; text-shadow:0px -1px #000000; line-height:17px;}
 .block_home_slider .caption p.title {padding-bottom:6px; font-size:15px; color:#ffffff; font-weight:bold; line-height:normal;}
 /*.block_home_slider .flex-direction-nav a {width:25px; height:25px; margin-top:-27px; display:block; position:absolute; top:50%; background-repeat:no-repeat; background-image:url(../img/sprite_arrow_2.png); text-indent:-9000px;}*/
