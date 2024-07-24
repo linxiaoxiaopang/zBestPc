@@ -1,0 +1,11 @@
+{
+  "name": "myJquery",
+  "content": {
+    "./src/myJquery.js": {
+      "id": "./src/myJquery.js",
+      "buildMeta": {
+        "providedExports": true
+      }
+    }
+  }
+}

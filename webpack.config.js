@@ -29,6 +29,7 @@ module.exports = {
         path: path.resolve(__dirname, './src/dist')
     },
     module: {
+        noParse: /jquery/,
         rules: [
             {
                 test: /\.css$/,
@@ -49,13 +50,16 @@ module.exports = {
     },
     plugins: [
         ...res.htmlWebpackPlugins,
-        new CopyPlugin({
-            patterns: [
-                { from: "./src/img", to: "./img" }
-            ]
-        }),
+        // new CopyPlugin({
+        //     patterns: [
+        //         { from: "./src/img", to: "./img" }
+        //     ]
+        // }),
         new webpack.ProvidePlugin({
             $: 'jquery'
+        }),
+        new webpack.DllReferencePlugin({
+            manifest: './src/dll/jquery.manifest.json'
         })
     ]
 }
